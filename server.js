@@ -3,7 +3,7 @@
 // Keeping this minimal means app.js is importable in tests without side effects.
 
 import app from "./app.js";
-import dotenv from "dotenv";a
+import dotenv from "dotenv";
 
 dotenv.config();
 
