@@ -42,7 +42,7 @@ app.get("/health", (req, res) => {
 
 // ── Auth Routes (existing) ─────────────────────────────────────────────────
 import authRoutes from "./routes/authRoutes.js";
-app.use("/api", authRoutes);
+app.use("/api/auth", authRoutes);
 
 // ── User Profile Routes (v1) ───────────────────────────────────────────────
 import userRoutes from "./routes/userRoutes.js";
